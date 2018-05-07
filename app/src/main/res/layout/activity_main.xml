@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_282d31"
+        android:gravity="center"
+        android:onClick="tv1"
+        android:text="NavitationFollowScrollLayout"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_282d31"
+        android:gravity="center"
+        android:onClick="tv2"
+        android:text="TabNavitationLayout"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_282d31"
+        android:gravity="center"
+        android:onClick="tv3"
+        android:text="NavitationLayout"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
